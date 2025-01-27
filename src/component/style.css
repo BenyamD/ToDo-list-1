@@ -15,14 +15,15 @@ header{
     margin: auto -16px;
     padding: 16px 16px;
     box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.3);
+    
 }
 header h2{
-    color:white;
     font-family: sans-serif;
-    font-weight: 200;
+    font-weight: 300;
+    color: black;
 }
 .note{
-    background: white;
+    background: rgb(236, 214, 156);
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
     padding: 10px;
@@ -32,16 +33,20 @@ header h2{
 }
 .note h1 {
     font-size: 1.1em;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
+    
+    
 }
-.nnote p{
+
+.note p{
 font-size: 1.1em;
+margin-top: 10px;
 margin-bottom: 10px;
 white-space: pre-wrap;
 word-wrap: break-word;
 }
 
-footer {
+.footer {
    color: black ;
    position: absolute;
    text-align: center;
